@@ -1,0 +1,6 @@
+framework module Pods_iOS_Developer_QuizTests {
+  umbrella header "Pods-iOS Developer QuizTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

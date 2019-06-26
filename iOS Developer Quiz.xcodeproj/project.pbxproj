@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		455E94318168A23ECA64970F /* Pods_iOS_Developer_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDC84C747B22B8A91A718AE /* Pods_iOS_Developer_Quiz.framework */; };
 		4A4E5CA922C3881000DBD376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E5CA822C3881000DBD376 /* AppDelegate.swift */; };
 		4A4E5CAB22C3881000DBD376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E5CAA22C3881000DBD376 /* ViewController.swift */; };
 		4A4E5CAE22C3881000DBD376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E5CAC22C3881000DBD376 /* Main.storyboard */; };
 		4A4E5CB022C3881200DBD376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E5CAF22C3881200DBD376 /* Assets.xcassets */; };
 		4A4E5CB322C3881200DBD376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E5CB122C3881200DBD376 /* LaunchScreen.storyboard */; };
 		4A4E5CBE22C3881200DBD376 /* iOS_Developer_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E5CBD22C3881200DBD376 /* iOS_Developer_QuizTests.swift */; };
+		EF05CB1485535D59323E1DF2 /* Pods_iOS_Developer_QuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A450159FA81A789E29183BF /* Pods_iOS_Developer_QuizTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A450159FA81A789E29183BF /* Pods_iOS_Developer_QuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Developer_QuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDC84C747B22B8A91A718AE /* Pods_iOS_Developer_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Developer_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4E5CA522C3880F00DBD376 /* iOS Developer Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Developer Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4E5CA822C3881000DBD376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A4E5CAA22C3881000DBD376 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,10 @@
 		4A4E5CB922C3881200DBD376 /* iOS Developer QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Developer QuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4E5CBD22C3881200DBD376 /* iOS_Developer_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Developer_QuizTests.swift; sourceTree = "<group>"; };
 		4A4E5CBF22C3881200DBD376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5319F42816E40BCB2105EC4F /* Pods-iOS Developer Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Developer Quiz.debug.xcconfig"; path = "Target Support Files/Pods-iOS Developer Quiz/Pods-iOS Developer Quiz.debug.xcconfig"; sourceTree = "<group>"; };
+		B60D734E75434EDCD64B0D6E /* Pods-iOS Developer Quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Developer Quiz.release.xcconfig"; path = "Target Support Files/Pods-iOS Developer Quiz/Pods-iOS Developer Quiz.release.xcconfig"; sourceTree = "<group>"; };
+		BDA4B496CD0865A409DE7FB2 /* Pods-iOS Developer QuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Developer QuizTests.debug.xcconfig"; path = "Target Support Files/Pods-iOS Developer QuizTests/Pods-iOS Developer QuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8BA907BFC8513AFD6BDD869 /* Pods-iOS Developer QuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Developer QuizTests.release.xcconfig"; path = "Target Support Files/Pods-iOS Developer QuizTests/Pods-iOS Developer QuizTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455E94318168A23ECA64970F /* Pods_iOS_Developer_Quiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF05CB1485535D59323E1DF2 /* Pods_iOS_Developer_QuizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40FFA4D01C90090077DF259B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5319F42816E40BCB2105EC4F /* Pods-iOS Developer Quiz.debug.xcconfig */,
+				B60D734E75434EDCD64B0D6E /* Pods-iOS Developer Quiz.release.xcconfig */,
+				BDA4B496CD0865A409DE7FB2 /* Pods-iOS Developer QuizTests.debug.xcconfig */,
+				C8BA907BFC8513AFD6BDD869 /* Pods-iOS Developer QuizTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4A4E5C9C22C3880F00DBD376 = {
 			isa = PBXGroup;
 			children = (
 				4A4E5CA722C3881000DBD376 /* iOS Developer Quiz */,
 				4A4E5CBC22C3881200DBD376 /* iOS Developer QuizTests */,
 				4A4E5CA622C3880F00DBD376 /* Products */,
+				40FFA4D01C90090077DF259B /* Pods */,
+				9E4B73D300A59E97E38977B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +120,15 @@
 			path = "iOS Developer QuizTests";
 			sourceTree = "<group>";
 		};
+		9E4B73D300A59E97E38977B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CDC84C747B22B8A91A718AE /* Pods_iOS_Developer_Quiz.framework */,
+				2A450159FA81A789E29183BF /* Pods_iOS_Developer_QuizTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A4E5CC222C3881200DBD376 /* Build configuration list for PBXNativeTarget "iOS Developer Quiz" */;
 			buildPhases = (
+				663DFC09C392448F52A7B85E /* [CP] Check Pods Manifest.lock */,
 				4A4E5CA122C3880F00DBD376 /* Sources */,
 				4A4E5CA222C3880F00DBD376 /* Frameworks */,
 				4A4E5CA322C3880F00DBD376 /* Resources */,
+				B7934B8AEAD60412813FCC8E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A4E5CC522C3881200DBD376 /* Build configuration list for PBXNativeTarget "iOS Developer QuizTests" */;
 			buildPhases = (
+				313B52339FC3A8CFB6ECB6FF /* [CP] Check Pods Manifest.lock */,
 				4A4E5CB522C3881200DBD376 /* Sources */,
 				4A4E5CB622C3881200DBD376 /* Frameworks */,
 				4A4E5CB722C3881200DBD376 /* Resources */,
@@ -191,6 +227,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		313B52339FC3A8CFB6ECB6FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Developer QuizTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		663DFC09C392448F52A7B85E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Developer Quiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7934B8AEAD60412813FCC8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Developer Quiz/Pods-iOS Developer Quiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Developer Quiz/Pods-iOS Developer Quiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS Developer Quiz/Pods-iOS Developer Quiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A4E5CA122C3880F00DBD376 /* Sources */ = {
@@ -358,6 +458,7 @@
 		};
 		4A4E5CC322C3881200DBD376 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5319F42816E40BCB2105EC4F /* Pods-iOS Developer Quiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +476,7 @@
 		};
 		4A4E5CC422C3881200DBD376 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60D734E75434EDCD64B0D6E /* Pods-iOS Developer Quiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +494,7 @@
 		};
 		4A4E5CC622C3881200DBD376 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA4B496CD0865A409DE7FB2 /* Pods-iOS Developer QuizTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +515,7 @@
 		};
 		4A4E5CC722C3881200DBD376 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8BA907BFC8513AFD6BDD869 /* Pods-iOS Developer QuizTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
