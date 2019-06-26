@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
@@ -92,5 +93,43 @@ class ViewController: UIViewController {
         return maxValue
     }
     // คำอธิบาย ข้อ3 ขั้นตอนแรก ผมจะทำการ sorted ค่าที่ได้มา ให้มีค่าเรียงจาก มากไปหาน้อย จากนั้นผมสร้างตัวแปร array มา 1 ตัว เพื่อเก็บค่า จากนั้นผมก็จะทำการ append ค่าลงไปในตัวแปรนั้น โดยจะ append แค่ 2 Index คือ Index 0 และ Index 1
+    
+    
+    //------------------------------------------- ข้อ 4 คำตอบ -----------------------------------------------------------
+    func addBooks(bookId: Int, bookName: String, bookAuthor: String, bookPrice: String) {
+        if let  Url = URL(string: "http://api.ookbee.com/user/{userId}/books") {
+            Alamofire.request(Url,
+                              method: .post,
+                              parameters: [
+                                "bookId": bookId,
+                                "bookName": bookName,
+                                "bookAuthor": bookAuthor,
+                                "bookPrice": bookPrice
+                ]).responseJSON { (response) in
+                    switch response.result {
+                    case .success(let value):
+                        print(value)
+                        self.alertData(title: "Succress", message: "Post สำเร็จ")
+                    case .failure(let error):
+                        print(error)
+                        self.alertData(title: "Error", message: "Post ไม่สำเร็จ")
+                    }
+            }
+        }
+    }
+    
+    func alertData(title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Yes", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true)
+    }
+    // คำอธิบาย ข้อ4 ส่วนนี้ผมจะใช้ Alamofire เพื่อใช้ ในการ Post และส่งค่า Paramiter เข้าไป หากส่งได้และถูกต้องก็จะแสดง Alert Success แต่ถ้าเกิดข้อผิดพลาดก็จะแสดง Error ขึ้นมา
+    
+    // ปัญหาข้อนี้คือ ไม่สามารถลองยิงได้ แต่ผมก็พยายามทำให้ให้ภาพว่าการ Post โดย Alamofire จะมีการเขียนประมาณนี้ครับ
+    
+    // ------------------------------- ขอบคุณครับ ^_^ ---------------------------------------------------------------------------
+
 }
+
+
 
